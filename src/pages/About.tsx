@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Calendar, Award, BookOpen, Star, Users, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import astrologerImg from "@/assets/astrologer-guru.jpg";
+import astrologerImg from "@/assets/astrologer-guru.png";
 import ganeshaImg from "@/assets/ganesha.jpg";
 import omSymbolImg from "@/assets/om-symbol.jpg";
 
