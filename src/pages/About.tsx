@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { Calendar, Award, BookOpen, Star, Users, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import astrologerImg from "@/assets/astrologer-guru.png";
+import gurujiImg from "@/assets/guruji.png";
+import chakraVideo from "@/assets/chakra.mp4";
 import ganeshaImg from "@/assets/ganesha.jpg";
 import omSymbolImg from "@/assets/om-symbol.jpg";
 
@@ -30,11 +32,20 @@ const About = () => (
     {/* Profile Section */}
     <section className="container py-16">
       <div className="grid md:grid-cols-2 gap-12 items-start">
-        <div>
+        <div className="relative w-120 h-420 rounded-2xl overflow-hidden shadow-lg border-4 border-primary/20">
+          <video
+            src="https://res.cloudinary.com/dvfmfdiuj/video/upload/v1771924273/make-the-circle-rote-clock-wise_k3uuga.mp4"
+            alt="Chakra Meditation Background"
+            className="w-120 h-420 object-cover"
+            autoPlay
+            muted
+            loop
+            playsInline
+          />
           <img
-            src={astrologerImg}
-            alt="Acharya Rajesh Sharma Ji"
-            className="w-full max-w-lg rounded-2xl shadow-lg border-4 border-primary/20"
+            src={gurujiImg}
+            alt="Guruji"
+            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-90 h-100 rounded-full shadow-xl"
           />
         </div>
         <div>

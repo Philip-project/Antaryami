@@ -3,7 +3,7 @@ import { MessageCircle, Phone, Video, Star, ArrowRight, Shield, Clock, Users, Ca
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import SlideInText from "@/components/SlideInText";
-import { ServicesMarquee } from "@/components/ServicesMarquee";
+import { SwipeMarquee } from "@/components/SwipeMarquee";
 import heroBg from "@/assets/hero-bg.jpg";
 import ganeshaImg from "@/assets/ganesha.jpg";
 import sacredLotusImg from "@/assets/sacred-lotus.jpg";
@@ -134,7 +134,7 @@ const Index = () => (
         <Button
           size="lg"
           variant="outline"
-          className="text-white border-white/40 hover:bg-white/10 text-lg px-12 py-5 rounded-xl backdrop-blur-md hover:scale-105 transition-all duration-300"
+          className="text-orange-500 border-white/10 hover:bg-white/10 text-lg px-12 py-5 rounded-xl backdrop-blur-md hover:scale-105 transition-all duration-300"
         >
           <Star className="h-5 w-5 mr-2" />
           View Horoscope
@@ -314,7 +314,7 @@ const Index = () => (
       </div>
     </section>
 
-    <ServicesMarquee />
+    <SwipeMarquee />
 
     {/* Horoscope */}
     <section className="bg-muted/50 py-16">

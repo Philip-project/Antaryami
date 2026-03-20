@@ -42,7 +42,7 @@ const Navbar = () => {
           ))}
         </nav>
 
-        <div className="hidden lg:flex items-center gap-3">
+        {/* <div className="hidden lg:flex items-center gap-3">
           <Button variant="ghost" size="icon">
             <Search className="h-4 w-4" />
           </Button>
@@ -54,7 +54,7 @@ const Navbar = () => {
               Sign Up
             </Button>
           </Link>
-        </div>
+        </div> */}
 
         <button
           className="lg:hidden p-2 text-foreground"
