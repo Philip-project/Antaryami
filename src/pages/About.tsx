@@ -35,7 +35,6 @@ const About = () => (
         <div className="relative w-120 h-420 rounded-2xl overflow-hidden shadow-lg border-4 border-primary/20">
           <video
             src="https://res.cloudinary.com/dvfmfdiuj/video/upload/v1771924273/make-the-circle-rote-clock-wise_k3uuga.mp4"
-            alt="Chakra Meditation Background"
             className="w-120 h-420 object-cover"
             autoPlay
             muted
